@@ -1,0 +1,27 @@
+{
+  "name": "@imxeno/electron-forge-maker-nsis",
+  "version": "6.0.0-beta.61",
+  "description": "NSIS maker for Electron Forge.",
+  "author": {
+    "name": "Piotr Adamczyk",
+    "email": "xeno@xeno.yt"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imxeno/electron-forge-maker-nsis.git"
+  },
+  "main": "dist/MakerNSIS.js",
+  "typings": "dist/MakerNSIS.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc"
+  },
+  "dependencies": {
+    "@electron-forge/maker-base": "6.0.0-beta.61",
+    "app-builder-lib": "^22.14.7"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
+}
