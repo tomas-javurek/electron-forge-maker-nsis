@@ -1,6 +1,6 @@
 {
   "name": "@imxeno/electron-forge-maker-nsis",
-  "version": "6.0.1",
+  "version": "7.0.1",
   "description": "NSIS maker for Electron Forge.",
   "author": {
     "name": "Piotr Adamczyk",
@@ -18,10 +18,11 @@
     "prepublish": "tsc"
   },
   "dependencies": {
-    "@electron-forge/maker-base": "6.0.0-beta.61",
-    "app-builder-lib": "^22.14.7"
+    "@electron-forge/maker-base": "^7.4.0",
+    "app-builder-lib": "^25.0.0-alpha.10",
+    "rxjs": "^7.8.1"
   },
   "devDependencies": {
-    "typescript": "^4.4.4"
+    "typescript": "^5.5.3"
   }
 }
